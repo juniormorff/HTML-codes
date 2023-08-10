@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmica</title>
+</head>
+<body>
+    <h1> Imagem Dinâmica</h1>
+    <p> Imagem em diversos tamanhos no paint </p>
+   <picture>
+       <source media="(max-width: 750px )" 
+       srcset="imagp.jpg" type=" image/png">
+
+       <source media="(max-width: 1050px )" 
+       srcset="imagm.jpg" type=" image/png">
+
+      <img src="imagg.jpg" alt=" imagem flexivel">
+
+   </picture>
+</body>
+</html>
